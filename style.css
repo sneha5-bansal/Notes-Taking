@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9f9ff;
+  color: #333;
+  text-align: center;
+}
+
+.hero {
+  padding: 2em;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+}
+
+.hero h1 span {
+  color: #6c63ff;
+}
+
+.cta, .chrome {
+  margin: 1em 0.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.cta {
+  background-color: #4a90e2;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.cta:hover {
+   background-color: #357ABD;
+}
+
+.chrome {
+  background-color: #ffffff;
+  border: 2px solid #4a90e2;
+  color: #4a90e2;
+  transition: all 0.3s ease;
+}
+
+.chrome:hover{
+    background-color: #a4cef7;
+    color: black;
+}
+
+.trusted-by .logos {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 1em 0;
+}
+
+.logos img {
+    width: 60%;
+    max-width: 280px;
+}
+
+.features {
+  padding: 1.5em;
+  background-color: #f1f6ff;
+}
+
+.feature-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.feature-tabs div {
+  background: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.designed-for .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1em;
+  padding: 1.5em;
+  justify-items: center;
+}
+
+.designed-for{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
